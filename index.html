@@ -25,6 +25,13 @@
       targetIframe: document.getElementById("wwiframe")
     })
 
+    WireWheelSDK.registerPrivacyProtocols(
+  {
+    apiUrl: 'https://api.uat.upcp.wirewheel.io/v2',
+    apiKey: 'eyJicmFuZElkIjoiMklwVzJPbFVVdG54YmVOWWd0dGVwTGdMZngwIiwiY2hhbm5lbElkIjoiMklwYTZvYzVzcjhNZGc4a293c2JFNDBwaFhYIiwidGVuYW50SWQiOiI2Mzk3OTY0Y2NhOWUwZDE1ZTU4M2ZhODIifQ=='
+  }
+)
+
     /*
     // Listen events in child application
     embeddedHandler.on('login', (message) => {
